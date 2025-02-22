@@ -5,4 +5,4 @@ hobby="dancing"
 print(hobby)
 
 print(97)
-print(9+7)
+print(90+25)
