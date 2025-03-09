@@ -10,3 +10,7 @@ my_balance -= 3
 my_balance *= 5 
   
 print(my_balance)
+
+credit = 300
+Credit = 280
+CREDIT = 320
