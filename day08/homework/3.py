@@ -20,7 +20,3 @@ hobby=("what is your hobby? ")
 
 print( name + " " + surname + " " + age + " " + location + " " + occupation + " " + hobby ) 
 
-output_sentence = f"გამარჯობა, მე ვარ {name} {surname}, {age} წლის. ვცხოვრობ {location}-ში და ვმუშაობ როგორც {occupation}. ჩემი ჰობია {hobby}."
-
-# შედეგის გამოტანა
-print(output_sentence)
