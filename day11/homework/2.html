@@ -1,0 +1,46 @@
+<!--3) შექმენით ერთგვერდიანი ვებსაიტი GOA-ს შესახებ, რომელზეც დაამატებთ ნავიგაციას, საიტზე უნდა იყოს მინიმუმ 3 სხვადასხვა სექცია. ამასთან აუცილებლად უნდა იყოს ფორმა, რომლის საშვალებითაც სტუმარი შეძლებს GOA-ში რეგისტრაციას და ჩადობას-->
+
+<html>
+    <head>
+        <title>ABOUT GOA</title>
+    </head>
+    <body>
+        <nav>
+            <a href="about">GOA-ს შესახებ</a> <br>
+            <a href="courses">კურსები</a> <br>
+            <a href="register">რეგისტრაცია</a> 
+        </nav>
+            <section id="about">
+               <h1>GOA-ს შესახებ</h1> 
+               <p>GOA (goal oriented academy) არის ადგილი,სადაც შეგიძლია ისწავლო პროგრამირება და გახდე პროფესიონალი. </p> 
+               <img src="goa.jpg" alt="goa" height="">
+            </section>
+
+            <section id="courses">
+                <h2>ჩვენი კურსები</h2>
+                <p>GOA გთავაზობთ კურსებს Python-ში, HTML/CSS-ში, JavaScript-ში და სხვა ტექნოლოგიებში.</p>
+                <img src="py.png" alt=""> 
+                <img src="hcj.png" alt="">
+            </section> 
+
+            <section id="register">
+                <h1>GOA-ში რეგისტრაცია</h1>
+                <form action="#" method="post"> 
+                <label for="name">სახელი:</label>  
+                <input type="text" id="name" name="name" placeholder="enter your name"> 
+
+                <label for="email">ელფოსტა:</label>
+                <input type="email" name="email" id="email" placeholder="enter your Email">
+
+                <label for="course">კურსის არჩევა:</label>
+                <select id="course" name="course">
+                    <option value="python">Python</option>
+                    <option value="HTML & CSS">HTML & CSS</option>
+                    <option value="javascript">JavaScript</option>
+                </select>
+
+                <button type="submit">რეგისტრაცია</button>
+            </section>
+        </form>
+    </body>
+</html>

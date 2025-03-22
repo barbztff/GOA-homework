@@ -5,3 +5,6 @@ username= input("name: ")
 
 # მონაცემის ტიპის შემოწმება
 print(type(username)) 
+
+age = int(input())
+print(type(age))
