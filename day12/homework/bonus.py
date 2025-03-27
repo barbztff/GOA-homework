@@ -15,5 +15,3 @@ productive = read_pages >= 20 and free_time  # თუ წაიკითხა �
 
 print(productive)  # True
   
-
-print("14" + "km")
