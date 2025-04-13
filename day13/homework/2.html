@@ -1,0 +1,60 @@
+<!--3) შექმენით ფორმა ყველა კარგი პრაქტიკის დაცვით, ისე თითქმოს ინფორმაციას მონაცემთა ბაზაში აგზავნიდეთ (name, value, required), რომელშიც უნდა იყოს შემდეგი შესატანი ველები: --> 
+
+<html>
+    <head>
+        <title>register</title>
+    </head>
+    <body>
+        <form action="#" method="post">
+        <!--მომხმარებლის სახელი-->
+        <label for="fullname">fullname:</label>
+        <input type="text" name="fullname" id="fullname" required> 
+        
+        <br>
+        <br>
+
+        <!--ელფოსტა-->
+        <label for="email">email:</label>
+        <input type="email" name="email" id="email" required> 
+
+        <br>
+        <br>
+
+        <!--ასაკი--> 
+        <label for="age">age:</label>
+        <input type="number" name="age" id="age" required> 
+
+        <br>
+        <br>
+
+        <!--ქალაქი--> 
+        <label for="city">city:</label>
+        <input type="text" name="city" id="city" required> 
+
+        <br>
+        <br>
+
+        <!--სქესი-->
+        <label>სქესი:</label> 
+        <label for="gender">male</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="gender">female</label>
+        <input type="radio" id="female"  name="gender" value="female" required>
+
+        <br>
+        <br>
+
+        <!--ჰობი-->
+        <label for="checkbox">hobbies:</label>
+        <input type="text" id="hobbies" name="hobbies" placeholder="მაგ: ცეკვა, კითხვა, მოგზაურობა"> 
+        
+        <br>
+        <br>
+
+        <!--დადასტურება-->
+        <label for="submit">submit</label>
+        <input type="submit" name="submit" id="submit" required> 
+        
+        </form>
+    </body>
+</html>

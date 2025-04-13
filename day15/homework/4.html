@@ -1,0 +1,73 @@
+<!--5) შექმენით ანალოგიური სარეგისტრაციო ფორმა: (ჩამოსაშლელ მეინუშ უნდა იყოს ყველა option რომელიც ჩანს სურათზე)-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="first name">First Name</label>
+        <input type="text" name="First Name" id="First Name" required> <br><br>
+
+        <label for="last name">Last Name</label>
+        <input type="text" name="Last Name" id="Last Name" required> <br><br>
+
+        <label for="date of birth">Date Of Birth</label>
+        <input type="date" name="date of birth" id="date of birth" required> <br><br>
+
+        <label for="age">age</label>
+        <input type="number" name="age" id="age" required> <br><br>
+
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+            <option selected value="female">Female</option>
+            <option value="male">Male</option>
+        </select> <br><br>
+
+        <label for="email">Email Address</label> 
+        <input type="email" name="email" id="email" placeholder="enter your email address" required> <br><br>
+
+        <label for="Position Applying For">Position Applying For</label> 
+        <select name="Position" id="Position">
+            <option selected value="Junior Developer">Junior Developer</option>
+            <option value="Mid-level Developer">Mid-level Developer</option>
+            <option value="Senior Developer">Senior Developer</option>
+        </select> <br><br>
+
+        <label for="experience">Years Of Experience</label>
+        <select name="experience" id="experience">
+            <option value="0-1">0-1</option>
+            <option selected value="1-3">1-3</option>
+            <option value="3-5">3-5</option>
+            <option value="5+">5+</option>
+        </select> <br><br>
+
+        <label for="Preffered Programming Language">Preffered Programming Language</label>
+        <select name="Preffered Programming Language" id="Preffered Programming Language">
+            <option value="Java">Java</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="C#">C#</option> 
+        </select> <br><br>
+
+        <label for="Preffered Job Location">Preffered Job Location</label>
+        <select name="Preffered Job Location" id="Preffered Job Location">
+            <option value="Remote">Remote</option>
+            <option value="New York">New York</option>
+            <option value="San Francisco">San Francisco</option>
+            <option value="London">London</option>
+        </select> <br><br> 
+
+         <label for="password">Password</label>
+         <input type="password" name="password" id="password" required> 
+
+         <label for="confirm password">Confirm Password</label> 
+         <input type="password" name="password" id="password"required> <br><br>
+          
+         <button>submit</button> <button>reset</button> 
+
+    </form>
+</body>
+</html>

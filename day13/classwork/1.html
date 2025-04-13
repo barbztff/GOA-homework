@@ -1,0 +1,42 @@
+<!--1) შექმენით ფორმა სადაც მოხმარებელი შეიყვანს სახელს, ემაილს და სქესს. ასევე უნდა შეეძლოს ფორმის დადასტურება, დაიცავით სტანდარტები და გამოიყენეთ name, value, required ატრიბუტები. კომენტარებით ახსენით თითოეული ატრიბუტის დანიშნულება-->
+
+
+<html>
+    <head>    
+        <title>მომხმარებლის ფორმა</title>
+    </head>
+<body>
+    <form action="#" method="POST">
+        <!-- სახელის შეყვანის ველი -->
+        <label for="name">სახელი:</label>
+        <input type="text" id="name" name="name" required>
+        <!-- name="name" -> სერვერზე ამ მონაცემის გაგზავნისას ველი აღინიშნება როგორც "name" -->
+        <!-- required -> მომხმარებელი ვალდებულია შეავსოს ეს ველი -->
+        <br><br>
+        
+        <!-- ელფოსტის შეყვანის ველი -->
+        <label for="email">ელ.ფოსტა:</label>
+        <input type="email" id="email" name="email" required>
+        <!-- type="email" -> მხოლოდ ელფოსტის ფორმატის მონაცემების შეყვანის შესაძლებლობა -->
+        <!-- name="email" -> მონაცემი სერვერზე გადაეცემა როგორც "email" -->
+        <!-- required -> ველის შევსება სავალდებულოა -->
+        <br><br>
+        
+        <!-- სქესის არჩევის ველი -->
+        <label>სქესი:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">მამრობითი</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">მდედრობითი</label>
+        <!-- type="radio" -> მომხმარებელს შეუძლია მხოლოდ ერთის არჩევა -->
+        <!-- name="gender" -> სქესის მნიშვნელობა სერვერზე გაიგზავნება როგორც "gender" -->
+        <!-- value="male" / "female" -> სერვერზე გადაეცემა ეს მნიშვნელობა, იმის მიხედვით, რა აირჩია მომხმარებელმა -->
+        <!-- required -> მომხმარებელმა აუცილებლად უნდა აირჩიოს ერთი -->
+        <br><br>
+        
+        <!-- ფორმის გაგზავნის ღილაკი -->
+        <button type="submit">დადასტურება</button>
+        <!-- type="submit" -> ღილაკი ფორმის მონაცემებს აგზავნის -->
+    </form>
+</body>
+</html>

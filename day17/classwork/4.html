@@ -1,0 +1,31 @@
+<!--4) შექმენით მარტივი სტრუქტურის ვეგბერდი, რომელზეც იქნება მულტი-მედია ელემენტები: ვიდეო & აუდიო. ორივე მედია ელემენტს უნდა ჰქონდეს მარტვის ატრიბუტები: loop, autoplay, muted--> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>მულტიმედია ვებსაიტი</title>
+</head>
+<body>
+
+  <h1>Ჩემი მულტიმედიის გვერდი</h1>
+
+  <!-- ვიდეო ელემენტი -->
+  <h2>ვიდეო</h2>
+  <video width="640" height="360" autoplay muted loop controls>
+    <source src="5_Second_Countdown_HD.mp4" type="video/mp4">
+    <source src="5_Second_Countdown_HD.mp4" type="video/webm">
+    თქვენი ბრაუზერი არ უჭერს მხარს ვიდეოს.
+  </video>
+
+  <!-- აუდიო ელემენტი -->
+  <h2>აუდიო</h2>
+  <audio autoplay muted loop controls>
+    <source src="5_Second_Countdown_HD.mp4" type="audio/mpeg">
+    <source src="5_Second_Countdown_HD.mp4" type="audio/ogg">
+    თქვენი ბრაუზერი არ უჭერს მხარს აუდიო ფაილებს.
+  </audio>
+
+</body>
+</html>
